@@ -7,7 +7,7 @@ config = {
     'user': 'root',
     'password': 'IMkhan@123@#',
     'host': 'localhost',
-    'port': 3305,  # Update the port number to 3305
+    'port': 3305,  # Update the port number to 3305 because in installation i gave port 3305
     'database':'userdb'
 }
 
@@ -37,10 +37,10 @@ def create_patients_table(db):
         id INT AUTO_INCREMENT PRIMARY KEY,
         name VARCHAR(255) NOT NULL,
         age INT,
-        contact_number VARCHAR(20),
-        email VARCHAR(255),
+        contact_number VARCHAR,
         address VARCHAR(255),
-        date_added TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        date_added TIMESTAMP DEFAULT CURRENT_TIMESTAMPCHAR(20),
+        email VARCHAR(255),
     )
     """
 
