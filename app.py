@@ -7,7 +7,7 @@ config = {
     'user': 'root',
     'password': 'IMkhan@123@#',
     'host': 'localhost',
-    'port': 3305,  # Update the port number to 3305 because in installation i gave port 3305
+    'port': 3306,  # Update the port number to 3305 because in installation i gave port 3305
     'database':'userdb'
 }
 
